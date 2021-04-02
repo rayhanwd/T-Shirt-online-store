@@ -27,7 +27,6 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     ManagePage: {
-        height: '100vh',
         background: '#3f51b5',
         width: '20%',
         color: 'white',
