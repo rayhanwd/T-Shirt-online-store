@@ -43,7 +43,6 @@ const CheckOut = (props) => {
   const [logInUser, setLogInUser] = useContext(UserContext);
   const [Orders, setOrders] = useState();
   const { name, imageURL, price, category } = props.pd;
-
   const onSubmit = data => {
 
     const orderDetails = { ...logInUser, products: props.pd, shipment: data, orderTime: new Date() }
@@ -78,6 +77,9 @@ const CheckOut = (props) => {
               <CardContent className={classes.content}>
                 <Typography variant="subtitle1" color="textSecondary">
                   {name}
+                </Typography>
+                <Typography className={classes.spacing} variant="subtitle1" color="textSecondary">
+                  Quantity: 1
                 </Typography>
                 <Typography className={classes.spacing} variant="subtitle1" color="textSecondary">
                   Price: ${price}

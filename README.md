@@ -7,3 +7,5 @@
 <p>Only for the admin. If you are logged in as a admin then you will do management the products. you can delete any product or insert a new one or more products here.Then finally all inserted products are automatically showing in home page and are all store in database. if you delete any products then it removed from the home page and database</p>
 
 <span>So, you are most Welcome</span>
+
+<a href="https://t-shirt-web-store.web.app/">live Site</a>
